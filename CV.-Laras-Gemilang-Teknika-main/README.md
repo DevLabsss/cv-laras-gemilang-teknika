@@ -1,4 +1,4 @@
-# CV. Laras Gemilang Teknika
+[# CV. Laras Gemilang Teknika
 
 Website resmi perusahaan **CV. Laras Gemilang Teknika** yang bergerak di bidang penyediaan material industri, konstruksi, dan kebutuhan teknik.
 
@@ -90,3 +90,4 @@ Website deployed using GitHub Pages.
 ## 📄 License
 
 This project is for company and portfolio purposes.
+](https://larasgemilangteknika.com/)
