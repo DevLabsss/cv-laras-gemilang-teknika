@@ -4,7 +4,7 @@ Website resmi perusahaan **CV. Laras Gemilang Teknika** yang bergerak di bidang 
 
 ## 🌐 Live Website
 
-https://DevLabsss.github.io/CV.-Laras-Gemilang-Teknika/
+https://larasgemilangteknika.com/
 
 ---
 
