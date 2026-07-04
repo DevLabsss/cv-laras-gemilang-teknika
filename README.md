@@ -54,7 +54,7 @@ Buka file `index.html` menggunakan browser.
 
 Website di-host menggunakan GitHub Pages dan dapat diakses melalui:
 
-https://devlabsss.github.io/CV.-Laras-Gemilang-Teknika/
+https://larasgemilangteknika.com/
 
 ## Author
 
