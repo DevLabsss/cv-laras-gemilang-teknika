@@ -1,0 +1,1333 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV. Laras Gemilang Teknika</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/favicon_io/favicon.ico"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="text-gray-800">
+    <!-- PAGE LOADER -->
+    <div id="page-loader">
+      <div class="loader-logo">Laras <span>Gemilang</span></div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <div
+        style="
+          font-size: 0.7rem;
+          color: rgba(255, 255, 255, 0.35);
+          letter-spacing: 0.2em;
+        "
+      >
+        MEMUAT...
+      </div>
+    </div>
+
+    <!-- PROGRESS BAR -->
+    <div id="progress-bar"></div>
+
+    <!-- CUSTOM CURSOR (desktop only) -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu">
+      <a href="#beranda" class="mobile-nav-link">Beranda</a>
+      <a href="#layanan" class="mobile-nav-link">Layanan</a>
+      <a href="#proyek" class="mobile-nav-link">Proyek</a>
+      <a href="#stats" class="mobile-nav-link">Statistik</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <a href="#kontak" class="mobile-nav-link">Kontak</a>
+      <a
+        href="https://wa.me/081213224224"
+        target="_blank"
+        style="
+          background: var(--green-wa);
+          color: #fff;
+          padding: 12px 36px;
+          border-radius: 50px;
+          font-weight: 700;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        "
+      >
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <!-- Logo CV Laras Gemilang Teknika -->
+          <div
+            class="flex items-center justify-center bg-white rounded-full shadow-md p-1"
+            style="width: 52px; height: 52px"
+          >
+            <img
+              src="./assets/Logo CV LGT.png"
+              alt="Logo CV Laras Gemilang Teknika"
+              class="w-full h-full object-contain"
+            />
+          </div>
+          <div>
+            <div
+              class="brand-name font-bold text-base leading-tight"
+              style="color: var(--navy); transition: color 0.4s"
+            >
+              CV. Laras Gemilang Teknika
+            </div>
+            <div
+              class="brand-sub"
+              style="
+                font-size: 0.65rem;
+                color: #64748b;
+                letter-spacing: 0.08em;
+                transition: color 0.4s;
+              "
+            >
+              KONSTRUKSI & TEKNIK
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#beranda" class="nav-link">Beranda</a>
+          <a href="#layanan" class="nav-link">Layanan</a>
+          <a href="#proyek" class="nav-link">Proyek</a>
+          <a href="#stats" class="nav-link">Statistik</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#kontak" class="nav-link">Kontak</a>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <a
+            href="https://wa.me/081213224224"
+            target="_blank"
+            class="cta-btn hidden md:flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition shadow-lg"
+          >
+            <i class="fab fa-whatsapp"></i> Konsultasi
+          </a>
+          <button
+            id="menu-toggle"
+            class="md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5"
+            aria-label="Menu"
+          >
+            <span
+              class="hamburger-line w-6 h-0.5 bg-white transition-all duration-300 block"
+            ></span>
+            <span
+              class="hamburger-line w-6 h-0.5 bg-white transition-all duration-300 block"
+            ></span>
+            <span
+              class="hamburger-line w-6 h-0.5 bg-white transition-all duration-300 block"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="beranda" class="hero-bg">
+      <!-- Hero Slider -->
+      <div class="hero-slider-container">
+        <div
+          class="hero-slider-item active"
+          style="
+            background-image: url(&quot;./photo-1504307651254-35680f356dfd.avif&quot;);
+          "
+        ></div>
+        <div
+          class="hero-slider-item"
+          style="
+            background-image: url(&quot;./assets/Main-2_2070x1371.jpeg&quot;);
+          "
+        ></div>
+        <div
+          class="hero-slider-item"
+          style="
+            background-image: url(&quot;./assets/Main-3_2070x1371.jpeg&quot;);
+          "
+        ></div>
+      </div>
+
+      <!-- Slider Indicators -->
+      <div class="hero-slider-indicators">
+        <div class="slider-dot active" data-index="0"></div>
+        <div class="slider-dot" data-index="1"></div>
+        <div class="slider-dot" data-index="2"></div>
+      </div>
+
+      <div class="hero-grid"></div>
+      <div
+        id="particles-container"
+        class="absolute inset-0 pointer-events-none overflow-hidden"
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-6 pt-28 pb-16 w-full relative z-10">
+        <div class="max-w-3xl text-white">
+          <div class="hero-eyebrow inline-flex items-center gap-2 mb-6">
+            <span
+              style="
+                background: var(--orange);
+                color: #fff;
+                padding: 5px 16px;
+                border-radius: 50px;
+                font-size: 0.75rem;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+              "
+            >
+              PROFESSIONAL ENGINEERING COMPANY
+            </span>
+          </div>
+
+          <h1
+            class="hero-h1 text-5xl md:text-7xl font-extrabold leading-none mb-6"
+            style="letter-spacing: -0.02em"
+          >
+            Membangun<br />
+            <span class="typewriter-wrap">
+              <span id="typewriter"></span
+              ><span class="typewriter-cursor"></span> </span
+            ><br />
+            Profesional.
+          </h1>
+
+          <p
+            class="hero-desc text-lg text-gray-300 leading-relaxed mb-8 max-w-xl"
+          >
+            CV. Laras Gemilang Teknika — mitra terpercaya dalam bidang
+            konstruksi, pengawasan proyek, desain rekayasa, dan konsultansi
+            teknik di Indonesia.
+          </p>
+
+          <div class="hero-btns flex flex-wrap gap-4 mb-16">
+            <a
+              href="#layanan"
+              style="
+                background: var(--orange);
+                color: #fff;
+                padding: 14px 32px;
+                border-radius: 50px;
+                font-weight: 700;
+                font-size: 0.9rem;
+                transition: all 0.3s;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                text-decoration: none;
+              "
+              onmouseover="
+                this.style.boxShadow = '0 12px 32px rgba(249,115,22,.5)'
+              "
+              onmouseout="this.style.boxShadow = 'none'"
+            >
+              Layanan Kami <i class="fas fa-arrow-right text-xs"></i>
+            </a>
+            <a
+              href="#kontak"
+              style="
+                border: 2px solid rgba(255, 255, 255, 0.4);
+                color: #fff;
+                padding: 13px 30px;
+                border-radius: 50px;
+                font-weight: 600;
+                font-size: 0.9rem;
+                transition: all 0.3s;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                text-decoration: none;
+              "
+              onmouseover="
+                this.style.background = 'rgba(255,255,255,.1)';
+                this.style.borderColor = '#fff';
+              "
+              onmouseout="
+                this.style.background = 'transparent';
+                this.style.borderColor = 'rgba(255,255,255,.4)';
+              "
+            >
+              Hubungi Kami
+            </a>
+          </div>
+
+          <!-- Hero quick stats -->
+          <div class="hero-stats flex flex-wrap gap-8">
+            <div
+              style="border-left: 3px solid var(--orange); padding-left: 1rem"
+            >
+              <div style="font-size: 2rem; font-weight: 800; line-height: 1">
+                133+
+              </div>
+              <div
+                style="
+                  font-size: 0.72rem;
+                  letter-spacing: 0.12em;
+                  color: rgba(255, 255, 255, 0.5);
+                "
+              >
+                PROYEK SELESAI
+              </div>
+            </div>
+            <div
+              style="border-left: 3px solid var(--orange); padding-left: 1rem"
+            >
+              <div style="font-size: 2rem; font-weight: 800; line-height: 1">
+                13+
+              </div>
+              <div
+                style="
+                  font-size: 0.72rem;
+                  letter-spacing: 0.12em;
+                  color: rgba(255, 255, 255, 0.5);
+                "
+              >
+                TAHUN BERPENGALAMAN
+              </div>
+            </div>
+            <div
+              style="border-left: 3px solid var(--orange); padding-left: 1rem"
+            >
+              <div style="font-size: 2rem; font-weight: 800; line-height: 1">
+                98%
+              </div>
+              <div
+                style="
+                  font-size: 0.72rem;
+                  letter-spacing: 0.12em;
+                  color: rgba(255, 255, 255, 0.5);
+                "
+              >
+                KLIEN PUAS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll hint -->
+      <div
+        style="
+          position: absolute;
+          bottom: 2rem;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 6px;
+          color: rgba(255, 255, 255, 0.4);
+          animation: bounce 2s infinite;
+        "
+      >
+        <!-- <span style="font-size: 0.65rem; letter-spacing: 0.18em">SCROLL</span> -->
+        <!-- <i class="fas fa-chevron-down" style="font-size: 0.8rem"></i> -->
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="layanan" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16" data-reveal>
+          <span
+            style="
+              font-size: 0.7rem;
+              font-weight: 700;
+              letter-spacing: 0.2em;
+              color: var(--orange);
+              text-transform: uppercase;
+            "
+            >KATALOG PRODUK</span
+          >
+          <h2 class="text-4xl font-bold mt-2" style="color: var(--navy)">
+            Pilihan Produk Unggulan
+          </h2>
+          <p class="text-gray-500 mt-3">
+            Jelajahi katalog produk kami dengan tampilan carousel horizontal.
+          </p>
+          <div
+            style="
+              width: 48px;
+              height: 3px;
+              background: var(--orange);
+              border-radius: 2px;
+              margin: 1rem auto 0;
+            "
+          ></div>
+        </div>
+
+        <div class="product-carousel" data-reveal>
+          <div class="carousel-labels">
+            <div>
+              <h2 class="text-2xl font-bold" style="color: var(--navy)">
+                7 Pilihan Produk
+              </h2>
+              <p class="mt-2">
+                Swipe atau gunakan tombol untuk melihat koleksi produk kami.
+              </p>
+            </div>
+            <div class="flex justify-end gap-3">
+              <button
+                class="carousel-control"
+                data-direction="prev"
+                aria-label="Sebelumnya"
+              >
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button
+                class="carousel-control"
+                data-direction="next"
+                aria-label="Berikutnya"
+              >
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-track" id="product-carousel">
+            <article class="carousel-card" data-reveal data-delay="1">
+              <img
+                src="./assets/Swing pinion gear shafts2.png"
+                alt="Produk 1"
+              />
+              <div class="carousel-card-body">
+                <h3>Swing Pinion Gear Shafts</h3>
+                <p>
+                  Swing pinion gear shaft merupakan poros transmisi yang
+                  berfungsi sebagai penghubung antara swing motor dan pinion
+                  gear, sekaligus menyalurkan tenaga putar untuk menghasilkan
+                  pergerakan rotasi yang presisi pada sistem swing. Komponen ini
+                  dirancang untuk menahan beban torsi tinggi serta kondisi kerja
+                  berat pada alat berat dan mesin industri.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="1">
+              <img src="./assets/Helical Gear2.png" alt="Produk 2" />
+              <div class="carousel-card-body">
+                <h3>Material Beton Ready Mix</h3>
+                <p>
+                  Material Beton Ready Mix merupakan beton siap pakai yang
+                  diproduksi di batching plant dengan komposisi material yang
+                  sudah terukur secara presisi, kemudian dikirim ke lokasi
+                  proyek dalam kondisi siap digunakan. Beton ini digunakan untuk
+                  berbagai kebutuhan konstruksi seperti pondasi, kolom, pelat,
+                  dan struktur bangunan lainnya, dengan kualitas yang konsisten
+                  serta kekuatan yang sesuai standar.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="1">
+              <img src="./assets/Chrome Plated Hydraulic.png" alt="Produk 3" />
+              <div class="carousel-card-body">
+                <h3>Pipa PVC Industri</h3>
+                <p>
+                  Pipa PVC Industri merupakan pipa berbahan Polyvinyl Chloride
+                  (PVC) yang digunakan untuk sistem perpipaan skala industri,
+                  seperti distribusi air, limbah, dan fluida ringan. Pipa ini
+                  memiliki ketahanan tinggi terhadap korosi dan bahan kimia,
+                  ringan, serta mudah dipasang sehingga cocok untuk berbagai
+                  kebutuhan konstruksi dan instalasi industri.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="2">
+              <img
+                src="./assets/Large-Head-Plate-Type-Die-Hooks-25HPTL.jpg"
+                alt="Produk 4"
+              />
+              <div class="carousel-card-body">
+                <h3>Large Head Plate Type Die Hooks</h3>
+                <p>
+                  Large Head Plate Type Die Hooks (DCHPL) adalah komponen khusus
+                  dalam sistem press die yang berfungsi menjaga stabilitas dan
+                  posisi cetakan (die) saat proses stamping atau metal forming.
+                  Mereka memiliki kepala pelat besar untuk distribusi beban yang
+                  lebih merata, sehingga mencegah pergeseran, keausan, dan
+                  misalignment pada cetakan.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="2">
+              <img src="./assets/Outlet N70.png" alt="Produk 5" />
+              <div class="carousel-card-body">
+                <h3>Outlet N70</h3>
+                <p>
+                  Outlet N70 adalah istilah yang biasanya digunakan dalam dunia
+                  piping dan sistem sprinkler untuk menyebut komponen sambungan
+                  (fitting) berbentuk seperti “topi koboi” — karena bagian
+                  atasnya melebar menyerupai topi.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="3">
+              <img src="./assets/housing.png" alt="Produk 6" />
+              <div class="carousel-card-body">
+                <h3>Housing</h3>
+                <p>
+                  Housing adalah komponen mekanik yang berfungsi sebagai dudukan
+                  atau pelindung bagi bagian lain seperti bearing, poros, atau
+                  gear agar tetap berada pada posisi yang tepat dan bekerja
+                  dengan stabil.
+                </p>
+              </div>
+            </article>
+            <article class="carousel-card" data-reveal data-delay="3">
+              <img src="./assets/ring oil seal2.png" alt="Produk 7" />
+              <div class="carousel-card-body">
+                <h3>Ring Oil Seal</h3>
+                <p>
+                  Ring Oil Seal digunakan untuk mencegah kebocoran pelumas (oil)
+                  pada sistem mekanik, menjaga agar oli tetap berada di dalam
+                  housing/gearbox, sekaligus melindungi bagian dalam dari
+                  masuknya debu atau kontaminan.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="proyek" class="py-24 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16" data-reveal>
+          <span
+            style="
+              font-size: 0.7rem;
+              font-weight: 700;
+              letter-spacing: 0.2em;
+              color: var(--orange);
+              text-transform: uppercase;
+            "
+            >PORTOFOLIO</span
+          >
+          <h2 class="text-4xl font-bold mt-2" style="color: var(--navy)">
+            Proyek Kami
+          </h2>
+          <p class="text-gray-500 mt-3">
+            Beberapa proyek unggulan yang telah kami kerjakan
+          </p>
+          <div
+            style="
+              width: 48px;
+              height: 3px;
+              background: var(--orange);
+              border-radius: 2px;
+              margin: 1rem auto 0;
+            "
+          ></div>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="flex justify-center gap-3 mb-10 flex-wrap" data-reveal>
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="Project-1">Project 1</button>
+          <button class="filter-btn" data-filter="Project-2">Project 2</button>
+          <button class="filter-btn" data-filter="Project-3">Project 3</button>
+        </div>
+        <style>
+          .filter-btn {
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1.5px solid #e2e8f0;
+            background: #fff;
+            color: #64748b;
+            transition: all 0.3s;
+          }
+          .filter-btn.active,
+          .filter-btn:hover {
+            background: var(--orange);
+            color: #fff;
+            border-color: var(--orange);
+          }
+        </style>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="project-grid">
+          <div
+            class="project-card relative bg-white"
+            data-category="Project-1"
+            data-reveal
+            data-delay="1"
+            data-img="./assets/repair-hand-lift.png"
+            data-title="Repair Hand Lift"
+            data-desc="Repair hand lift adalah proses perawatan dan perbaikan alat angkat manual seperti pallet jack atau hand pallet truck agar tetap berfungsi optimal dan aman digunakan."
+          >
+            <div class="overflow-hidden" style="height: 240px">
+              <img
+                src="./assets/repair-hand-lift.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="project-overlay">
+              <span
+                style="
+                  background: var(--orange);
+                  color: #fff;
+                  font-size: 0.65rem;
+                  font-weight: 700;
+                  padding: 3px 10px;
+                  border-radius: 20px;
+                  width: fit-content;
+                  margin-bottom: 8px;
+                "
+                >Project 1</span
+              >
+              <div style="font-size: 1.2rem; font-weight: 700; color: #fff">
+                Repair hand lift
+              </div>
+              <div
+                style="
+                  font-size: 0.75rem;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-top: 4px;
+                  display: flex;
+                  align-items: center;
+                  gap: 6px;
+                "
+              >
+                <i class="fas fa-expand-alt"></i> Klik untuk detail
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-bold text-lg" style="color: var(--navy)">
+                Repair hand lift
+              </h3>
+              <p class="text-gray-500 text-sm mt-1">
+                Repair hand lift adalah proses perawatan dan perbaikan alat
+                angkat.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="project-card relative bg-white"
+            data-category="Project-2"
+            data-reveal
+            data-delay="2"
+            data-img="./assets/Blower.png"
+            data-title="Blower"
+            data-desc="Blower adalah alat mekanik yang berfungsi untuk mengalirkan udara atau gas dengan tekanan lebih tinggi dari tekanan atmosfer menggunakan energi mekanis dari motor atau turbin."
+          >
+            <div class="overflow-hidden" style="height: 240px">
+              <img
+                src="./assets/Blower.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="project-overlay">
+              <span
+                style="
+                  background: var(--orange);
+                  color: #fff;
+                  font-size: 0.65rem;
+                  font-weight: 700;
+                  padding: 3px 10px;
+                  border-radius: 20px;
+                  width: fit-content;
+                  margin-bottom: 8px;
+                "
+                >Project 2</span
+              >
+              <div style="font-size: 1.2rem; font-weight: 700; color: #fff">
+                Blower
+              </div>
+              <div
+                style="
+                  font-size: 0.75rem;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-top: 4px;
+                  display: flex;
+                  align-items: center;
+                  gap: 6px;
+                "
+              >
+                <i class="fas fa-expand-alt"></i> Klik untuk detail
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-bold text-lg" style="color: var(--navy)">
+                Blower
+              </h3>
+              <p class="text-gray-500 text-sm mt-1">
+                Blower adalah alat mekanik yang berfungsi untuk mengalirkan
+                udara atau gas dengan tekanan lebih tinggi.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="project-card relative bg-white"
+            data-category="Project-3"
+            data-reveal
+            data-delay="3"
+            data-img="./assets/wrapping brush3.png"
+            data-title="Wrapping Brush"
+            data-desc="Wrapping Brush adalah alat yang digunakan untuk membersihkan, menghaluskan, atau menghilangkan sisa material pada permukaan logam setelah proses pengelasan, pemotongan, atau finishing."
+          >
+            <div class="overflow-hidden" style="height: 240px">
+              <img
+                src="./assets/wrapping brush3.png"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="project-overlay">
+              <span
+                style="
+                  background: var(--orange);
+                  color: #fff;
+                  font-size: 0.65rem;
+                  font-weight: 700;
+                  padding: 3px 10px;
+                  border-radius: 20px;
+                  width: fit-content;
+                  margin-bottom: 8px;
+                "
+                >Project 3</span
+              >
+              <div style="font-size: 1.2rem; font-weight: 700; color: #fff">
+                Wrapping Brush
+              </div>
+              <div
+                style="
+                  font-size: 0.75rem;
+                  color: rgba(255, 255, 255, 0.6);
+                  margin-top: 4px;
+                  display: flex;
+                  align-items: center;
+                  gap: 6px;
+                "
+              >
+                <i class="fas fa-expand-alt"></i> Klik untuk detail
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-bold text-lg" style="color: var(--navy)">
+                Wrapping Brush
+              </h3>
+              <p class="text-gray-500 text-sm mt-1">
+                Wrapping Brush adalah alat yang digunakan untuk membersihkan,
+                menghaluskan, atau menghilangkan sisa material.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox">
+      <button id="lightbox-close"><i class="fas fa-times"></i></button>
+      <div style="max-width: 700px; width: 100%; text-align: center">
+        <img id="lightbox-img" src="" alt="" />
+        <div
+          id="lightbox-title"
+          style="
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-top: 1rem;
+          "
+        ></div>
+        <div
+          id="lightbox-desc"
+          style="
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+          "
+        ></div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <section id="stats" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="stat-card" data-reveal data-delay="1">
+            <div
+              style="font-size: 2.4rem; font-weight: 800; color: var(--orange)"
+              class="count-el"
+              data-target="133"
+            >
+              0
+            </div>
+            <div
+              style="
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: #64748b;
+                margin-top: 4px;
+              "
+            >
+              Proyek Selesai
+            </div>
+          </div>
+          <div class="stat-card" data-reveal data-delay="2">
+            <div
+              style="font-size: 2.4rem; font-weight: 800; color: var(--orange)"
+              class="count-el"
+              data-target="13"
+            >
+              0
+            </div>
+            <div
+              style="
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: #64748b;
+                margin-top: 4px;
+              "
+            >
+              Tahun Pengalaman
+            </div>
+          </div>
+          <div class="stat-card" data-reveal data-delay="3">
+            <div
+              style="font-size: 2.4rem; font-weight: 800; color: var(--orange)"
+              class="count-el"
+              data-target="37"
+            >
+              0
+            </div>
+            <div
+              style="
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: #64748b;
+                margin-top: 4px;
+              "
+            >
+              Klien Puas
+            </div>
+          </div>
+          <div class="stat-card" data-reveal data-delay="4">
+            <div
+              style="font-size: 2.4rem; font-weight: 800; color: var(--orange)"
+              class="count-el"
+              data-target="98"
+            >
+              0
+            </div>
+            <div
+              style="
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: #64748b;
+                margin-top: 4px;
+              "
+            >
+              % Kepuasan
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-24 bg-gray-50">
+      <div class="max-w-3xl mx-auto px-6">
+        <div class="text-center mb-14" data-reveal>
+          <span
+            style="
+              font-size: 0.7rem;
+              font-weight: 700;
+              letter-spacing: 0.2em;
+              color: var(--orange);
+              text-transform: uppercase;
+            "
+            >FAQ</span
+          >
+          <h2 class="text-4xl font-bold mt-2" style="color: var(--navy)">
+            Pertanyaan Umum
+          </h2>
+          <div
+            style="
+              width: 48px;
+              height: 3px;
+              background: var(--orange);
+              border-radius: 2px;
+              margin: 1rem auto 0;
+            "
+          ></div>
+        </div>
+
+        <div class="faq-list" data-reveal>
+          <div class="faq-item">
+            <button class="faq-btn">
+              Berapa lama waktu estimasi pengerjaan proyek?
+              <i class="faq-icon fas fa-plus"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-gray-500 text-sm leading-relaxed">
+                Estimasi waktu pengerjaan sangat bergantung pada skala dan
+                kompleksitas proyek. Proyek kecil biasanya 2–4 minggu, sedangkan
+                proyek besar bisa 2–4 bulan. Kami selalu berkomitmen
+                menyelesaikan proyek tepat waktu sesuai jadwal yang disepakati.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-btn">
+              Apakah CV. Laras Gemilang Teknika melayani proyek di luar
+              Tangerang? <i class="faq-icon fas fa-plus"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-gray-500 text-sm leading-relaxed">
+                Ya, kami melayani proyek di seluruh wilayah Indonesia. Tim kami
+                siap bergerak ke lokasi manapun untuk memastikan kualitas
+                pengerjaan tetap terjaga.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-btn">
+              Bagaimana cara mendapatkan penawaran harga?
+              <i class="faq-icon fas fa-plus"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-gray-500 text-sm leading-relaxed">
+                Anda bisa menghubungi kami melalui formulir kontak, WhatsApp,
+                atau telepon. Tim kami akan merespons dalam 1x24 jam untuk
+                mendiskusikan kebutuhan dan memberikan estimasi harga yang
+                transparan.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-btn">
+              Apakah ada garansi untuk setiap proyek yang dikerjakan?
+              <i class="faq-icon fas fa-plus"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-gray-500 text-sm leading-relaxed">
+                Ya, kami memberikan garansi pasca-konstruksi dan konsultansi
+                lanjutan. Kami tidak menutup proyek sampai klien benar-benar
+                puas dengan hasil akhirnya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT + MAP -->
+    <section id="kontak" class="py-24" style="background: var(--navy)">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-14" data-reveal>
+          <span
+            style="
+              font-size: 0.7rem;
+              font-weight: 700;
+              letter-spacing: 0.2em;
+              color: var(--orange);
+              text-transform: uppercase;
+            "
+            >KONTAK</span
+          >
+          <h2 class="text-4xl font-bold text-white mt-2">Hubungi Kami</h2>
+          <p class="text-gray-400 mt-3">Siap berdiskusi tentang proyek Anda?</p>
+          <div
+            style="
+              width: 48px;
+              height: 3px;
+              background: var(--orange);
+              border-radius: 2px;
+              margin: 1rem auto 0;
+            "
+          ></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <!-- Contact info + form -->
+          <div data-reveal>
+            <div class="space-y-5 mb-8">
+              <div style="display: flex; align-items: flex-start; gap: 14px">
+                <div
+                  style="
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 12px;
+                    background: rgba(249, 115, 22, 0.15);
+                    color: var(--orange);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                  "
+                >
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-weight: 700;
+                      color: #fff;
+                      font-size: 0.9rem;
+                      margin-bottom: 3px;
+                    "
+                  >
+                    Alamat
+                  </div>
+                  <div
+                    style="font-size: 0.82rem; color: #94a3b8; line-height: 1.6"
+                  >
+                    Jl. Pajajaran I No.89, RT.001/RW.003, Bumi Mas, Jatiuwung,
+                    Kec. Cibodas, Kota Tangerang, Banten 15137
+                  </div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 14px">
+                <div
+                  style="
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 12px;
+                    background: rgba(249, 115, 22, 0.15);
+                    color: var(--orange);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                  "
+                >
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-weight: 700;
+                      color: #fff;
+                      font-size: 0.9rem;
+                      margin-bottom: 2px;
+                    "
+                  >
+                    Telepon
+                  </div>
+                  <div style="font-size: 0.82rem; color: #94a3b8">
+                    0812-1322-4224
+                  </div>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 14px">
+                <div
+                  style="
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 12px;
+                    background: rgba(249, 115, 22, 0.15);
+                    color: var(--orange);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                  "
+                >
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <div
+                    style="
+                      font-weight: 700;
+                      color: #fff;
+                      font-size: 0.9rem;
+                      margin-bottom: 2px;
+                    "
+                  >
+                    Email
+                  </div>
+                  <div style="font-size: 0.82rem; color: #94a3b8">
+                    nopiantono282@gmail.com
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form
+              action="https://formsubmit.co/nopiantono282@gmail.com"
+              method="POST"
+              style="display: flex; flex-direction: column; gap: 0.9rem"
+            >
+              <!-- FormSubmit Settings -->
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_subject"
+                value="Pesan Baru dari Website CV Laras Gemilang Teknika"
+              />
+              <input type="hidden" name="_template" value="table" />
+
+              <div
+                style="
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  gap: 0.9rem;
+                "
+              >
+                <input
+                  type="text"
+                  name="Nama Lengkap"
+                  placeholder="Nama Lengkap"
+                  class="input-field"
+                  required
+                />
+
+                <input
+                  type="tel"
+                  name="Nomor Telepon"
+                  placeholder="Nomor Telepon"
+                  class="input-field"
+                />
+              </div>
+
+              <input
+                type="email"
+                name="Email"
+                placeholder="Email Anda"
+                class="input-field"
+                required
+              />
+
+              <textarea
+                name="Pesan"
+                placeholder="Kritik Dan Saran Anda"
+                rows="4"
+                class="input-field"
+                style="resize: none"
+                required
+              ></textarea>
+
+              <button
+                type="submit"
+                class="btn-submit w-full flex items-center justify-center gap-2"
+              >
+                <i class="fas fa-paper-plane text-sm"></i>
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+
+          <!-- Map -->
+          <div data-reveal data-delay="2">
+            <div style="margin-bottom: 0.8rem">
+              <div
+                style="
+                  font-weight: 700;
+                  color: #fff;
+                  font-size: 1rem;
+                  margin-bottom: 0.2rem;
+                "
+              >
+                Lokasi Kantor
+              </div>
+              <div style="font-size: 0.8rem; color: #64748b">
+                Jl. Pajajaran I No.89, Jatiuwung, Tangerang
+              </div>
+            </div>
+            <div class="map-wrap relative">
+              <iframe
+                src="https://www.google.com/maps?q=-6.201451,106.665428&hl=id&z=17&output=embed"
+                width="100%"
+                height="420"
+                style="border: 0; display: block"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Lokasi CV. Laras Gemilang Teknika"
+              >
+              </iframe>
+              <a
+                href="https://maps.app.goo.gl/XhVc6dNRp7m3LFEq7"
+                target="_blank"
+                style="
+                  position: absolute;
+                  bottom: 0.7rem;
+                  left: 3.5rem;
+                  background: #fff;
+                  color: var(--navy);
+                  padding: 10px 18px;
+                  border-radius: 50px;
+                  font-weight: 700;
+                  font-size: 0.8rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  text-decoration: none;
+                  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+                  transition: all 0.3s;
+                "
+                onmouseover="
+                  this.style.background = 'var(--orange)';
+                  this.style.color = '#fff';
+                "
+                onmouseout="
+                  this.style.background = '#fff';
+                  this.style.color = 'var(--navy)';
+                "
+              >
+                <i class="fas fa-location-arrow"></i> Buka Google Maps
+              </a>
+            </div>
+
+            <!-- Jam Operasional -->
+            <div
+              style="
+                margin-top: 1.2rem;
+                background: rgba(255, 255, 255, 0.05);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                border-radius: 16px;
+                padding: 1.2rem;
+              "
+            >
+              <div
+                style="
+                  font-weight: 700;
+                  color: #fff;
+                  font-size: 0.85rem;
+                  margin-bottom: 0.8rem;
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                "
+              >
+                <i class="fas fa-clock" style="color: var(--orange)"></i> JAM
+                OPERASIONAL
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 6px;
+                  font-size: 0.8rem;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    color: #94a3b8;
+                  "
+                >
+                  <span>Senin — Jumat</span
+                  ><span style="color: #fff; font-weight: 600"
+                    >08.00 — 17.00 WIB</span
+                  >
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    color: #94a3b8;
+                  "
+                >
+                  <span>Sabtu</span
+                  ><span style="color: #fff; font-weight: 600"
+                    >08.00 — 13.00 WIB</span
+                  >
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    color: #64748b;
+                  "
+                >
+                  <span>Minggu</span
+                  ><span style="color: var(--orange); font-weight: 600"
+                    >Tutup</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      style="
+        background: #000;
+        color: #475569;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 0.8rem;
+      "
+    >
+      © 2026 CV. Laras Gemilang Teknika — All Rights Reserved
+      <span style="margin: 0 8px; color: #1e293b">|</span>
+      <span style="color: #f97316">Solusi Konstruksi & Teknik Profesional</span>
+    </footer>
+
+    <!-- TOAST -->
+    <div id="toast">
+      <span class="toast-icon">✅</span>
+      <span id="toast-msg">Pesan berhasil dikirim!</span>
+    </div>
+
+    <!-- WA BUBBLE -->
+    <div id="wa-wrap">
+      <div class="wa-tooltip">Chat dengan kami 💬</div>
+      <a
+        href="https://wa.me/081213224224"
+        class="wa-float"
+        target="_blank"
+        aria-label="WhatsApp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <!-- BACK TO TOP -->
+    <button id="back-top" aria-label="Kembali ke atas">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
